@@ -1,0 +1,40 @@
+body{
+    font-size: 0.9em;
+}
+
+table{
+    padding-top: 4px;
+}
+
+h3,h4,h5{
+    font-weight : bold;
+}
+
+h4{
+    margin: 0px 0px 15px 0px;
+}
+ul{
+    list-style-type : none;
+    margin-bottom: 20px;
+    padding-left:10px;
+}
+
+.card{
+    padding : 0px;
+    margin: 10px 5px 20px 5px;
+    width: 400px;
+}
+
+.card-body, .card-header{
+    padding: 0.5rem;
+}
+
+span.card-title{
+    font-weight: bold;
+    font-size: 1.4em;
+    width: 200px;
+}
+
+navbar{
+    border-bottom: 1px solid gray;
+}

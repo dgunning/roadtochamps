@@ -1,0 +1,113 @@
+
+.recipe {
+  padding: 1em;
+}
+.recipe__title {
+  margin-top: 0;
+}
+.recipe__info {
+  vertical-align: top;
+  text-align: right;
+  padding: 0 1em 0 0;
+  margin: 0 1.3em 0 0;
+  font-weight: bold;
+  color: #454545;
+  border-right: 1px dotted #EEE;
+  width: 300px;
+  float: left;
+}
+.recipe__ingredients {
+  float: left;
+}
+.recipe-table {
+  position: relative;
+  padding:  1em;
+  border: 1px solid #DDD;
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+  z-index: 10;
+}
+
+.recipe-table__cell {
+  vertical-align: top;
+  padding: 3px 5px;
+}
+.recipe__text-field {
+  margin:0;
+  padding: .45em 0.92em;
+  font-size: 1em;
+  line-height: 1.4;
+  color: #555555;
+  background-color: #FFF;
+  background-image: none;
+  border: 1px solid #CCC;
+  border-left:1px solid #CCC;
+}
+
+
+.drag-handler {
+  width: 1.4em;
+  position: relative;
+  background-color: #E4E6EB;
+  background-image: linear-gradient(45deg, #E4E6EB, #E4E6EB 2px, #fff 2px, #fff 4px, #E4E6EB 4px, #E4E6EB 9px, #fff 9px, #fff 11px, #E4E6EB 11px, #E4E6EB 16px, #fff 16px, #fff 18px, #E4E6EB 18px, #E4E6EB 22px);
+  background-size: 10px 20px;
+  cursor: move;
+  border-top: 2px solid #FFF;
+  border-bottom: 2px solid #FFF;
+}
+
+.drag-handler:active {
+  background-image: linear-gradient(45deg, #bab86c, #bab86c 2px, #fff 2px, #fff 4px, #bab86c 4px, #bab86c 9px, #fff 9px, #fff 11px, #bab86c 11px, #bab86c 16px, #fff 16px, #fff 18px, #bab86c 18px, #bab86c 22px);
+  background-size: 10px 20px;
+}
+
+.eventheader{
+    font-weight:bold;
+    font-size:1.4em;
+    width: 100%;
+    border: 1px solid;
+    float:left;
+    clear: both;
+}
+.cell{
+    height: 30px;
+}
+.cell_Girls, .cell_Boys{
+    height: 24px;
+    margin : 0px 2px 0px 2px;
+    padding: .1em 0.92em;
+    font-size: 1em;
+    line-height: 1.4;
+    color: #555555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-left:1px solid #CCC;
+}
+
+.pointsTable td, .predictTable td{
+ height: 36px;
+ padding: 4px 4px;
+}
+
+.predictTable, .pointsTable{
+    float:left;
+}
+.predictTable{
+    width:88%;
+}
+.pointsTable{
+ width:10%;
+}
+
+.pointsTable td{
+    font-weight: bold;
+    text-align: center;
+}
+
+caption{
+    caption-side: top;
+    font-weight: bold;
+    color: #000;
+    font-family:Arial;
+    font-size: 1.4em;
+}
